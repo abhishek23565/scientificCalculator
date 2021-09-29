@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+#container{
+    margin-top: 25vh;
+    width: 20vw;
+    height: 60vh;
+    /* border: 2px solid rgb(75, 73, 73); */
+    display: flex;
+    background-color: rgb(224, 220, 220);
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+#displaycalc{
+    margin-top: 5vh;
+    position: relative;
+    height: 8.5vh;
+    width: 20vw;
+    border-bottom: 2px solid rgba(59, 126, 250, 0.658);
+    /* border: 2px solid grey; */
+}
+
+#displaycalc input{
+    background-color: rgb(224, 220, 220);
+    height: 8vh;
+    width: 19vw;
+    border: none;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+#digits{
+    position: relative;
+    display: flex;
+    /* height: 6vh; */
+    width: 20vw;
+    margin-top: 2.7vh;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    /* height: 6vh; */
+    margin-top: .1rem;
+}
+
+.btn{
+    font-family: 'Lobster', cursive;
+    height: 7vh;
+    width: 3.9vw;
+    border: none;
+    margin-right: .1rem;
+    /* border-radius: 3rem; */
+}
+
+.btnclear{
+    background-color: rgb(236 78 136 / 97%);
+    color: white;
+}
+
+.btndel{
+    background-color: rgb(92 223 59 / 96%);
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: rgb(176, 176, 245);
+    cursor: pointer;
+}
+
+.btn33{
+    background-color: white;
+}
+
+.btn33:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+/* .btn17, .btn18,.btn19,
+.btn22,.btn23,.btn24,
+.btn27,.btn28,.btn29,
+.btn33{
+    &:hover{
+        background-color: rgb(240, 240, 240);
+    }
+} */
+
+/* :where(.btn17, .btn18,.btn19,
+.btn22,.btn23,.btn24,
+.btn27,.btn28,.btn29,
+.btn33):hover{
+    background-color: rgb(240, 240, 240);
+} */
+
+.btn35{
+    background-color: rgb(176, 176, 245);
+}
+
+.btn35:hover{
+    background-color: rgb(240, 240, 240);
+}

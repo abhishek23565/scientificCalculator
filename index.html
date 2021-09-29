@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Bonheur+Royale&family=Lobster&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="displaycalc">
+            <input type="text" placeholder="0" id="inputVal">
+        </div>
+        <div id="digits">
+            <!-- <div class="group">
+                 <div id="number1" class="num">
+                    <button class="btn">
+                        <a href=""></a>
+                    </button>
+                </div>
+
+                <div id="number2" class="num">
+                    <button class="btn">
+                        <a href=""></a>
+                    </button>
+                </div>
+
+                <div id="number3" class="num">
+                    <button class="btn">
+                        <a href=""></a>
+                    </button>
+                </div>
+
+                <div id="number4" class="num">
+                    <button class="btn">
+                        <a href=""></a>
+                    </button>
+                </div>
+
+                <div id="number5" class="num">
+                    <button class="btn">
+                        <a href=""></a>
+                    </button>
+                </div>
+            </div> -->
+
+            <div class="group">
+                <button class="btn" onclick="square()">
+                    x<sup>2</sup>
+                </button>
+
+                <button class="btn" onclick="factorial()">
+                    n!
+                </button>
+
+                <button class="btn" onclick="modulus()">
+                    |x|
+                </button>
+
+                <button class="btn btnclear" onclick="clearVal()">
+                    C
+                </button>
+
+                <button class="btn btndel" onclick="backspace()">
+                    ⌫
+                </button>
+
+            </div>
+
+            <div class="group">
+                <button class="btn" onclick="sqrt2()">
+                    x<sup>1/2</sup>
+                </button>
+
+                <button class="btn" onclick="sinval()">
+                    sin
+                </button>
+
+                <button class="btn" onclick="cosval()">
+                    cos
+                </button>
+
+                <button class="btn" onclick="tanval()">
+                    tan
+                </button>
+
+                <button class="btn" onclick="number('/')">
+                    %
+                </button>
+            </div>
+
+            <div class="group">
+                <button class="btn" onclick="number('**')">
+                    x<sup>y</sup>
+                </button>
+
+                <button class="btn btn33" onclick="number('1')">
+                    1
+                </button>
+
+                <button class="btn btn33" onclick="number('2')">
+                    2
+                </button>
+
+                <button class="btn btn33" onclick="number('3')">
+                    3
+                </button>
+
+                <button class="btn" onclick="number('*')">
+                    ×
+                </button>
+            </div>
+
+            <div class="group">
+                <button class="btn" onclick="logarithmicX()">
+                    log
+                </button>
+
+                <button class="btn btn33" onclick="number('4')">
+                    4
+                </button>
+
+                <button class="btn btn33" onclick="number('5')">
+                    5
+                </button>
+
+                <button class="btn btn33" onclick="number('6')">
+                    6
+                </button>
+
+                <button class="btn" onclick="number('-')">
+                    -
+                </button>
+            </div>
+
+            <div class="group">
+                <button class="btn" onclick="tenpowX()">
+                    10<sup>x</sup>
+                </button>
+
+                <button class="btn btn33" onclick="number('7')">
+                    7
+                </button>
+
+                <button class="btn btn33" onclick="number('8')">
+                    8
+                </button>
+
+                <button class="btn btn33" onclick="number('9')">
+                    9
+                </button>
+
+                <button class="btn" onclick="number('+')">
+                    +
+                </button>
+            </div>
+
+            <div class="group">
+                <button class="btn" onclick="twopowX()">
+                    2<sup>x</sup>
+                </button>
+
+                <button class="btn" onclick="pieval()">
+                    π
+                </button>
+
+                <button class="btn btn33" onclick="number('0')">
+                    0
+                </button>
+
+                <button class="btn" onclick="number('.')">
+                    .
+                </button>
+
+                <button class="btn btn35" onclick="calculation()">
+                    =
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
